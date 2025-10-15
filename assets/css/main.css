@@ -431,7 +431,7 @@ h6 {
 }
 
 .header .container-fluid {
-  background-color: white;
+  background-color:#020A0C;
   border-radius: 16px;
   box-shadow: 0 11px 13.3px rgba(0, 0, 0, 0.25);
   margin-top: 1%;
@@ -491,12 +491,12 @@ h6 {
 
 /* Location Badge */
 .badge.location {
-  background-color: #89b35f;
+  background-color:#333333;
   color: #FFF;
   padding: 8px 15px;
   font-size: 14px;
   border-radius: 20px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #333333;
   white-space: nowrap;
 }
 
@@ -521,7 +521,7 @@ h6 {
   /* ADDED: Prevent phone number from breaking */
   white-space: nowrap;
   line-height: 1.2;
-  color :#020A0C;
+  color :#FFFFFF;
 }
 
 /* =========================================
@@ -780,7 +780,7 @@ h6 {
 .scrolled .header {
   /* background: linear-gradient(135deg, #040E18 0%, #093C70 100%); */
 
-  background-color: white;
+  background-color: #020A0C;
 }
 
 .scrolled .header .container-fluid {
@@ -1245,7 +1245,7 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #f1f8ff;
+  background-color: #f3ffe9;
   overflow: hidden;
 }
 
@@ -1536,7 +1536,7 @@ form button.btn {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background-color: #89b35f;
+  background-color: #020A0C;
   gap: 12px;
   align-self: stretch;
 }
@@ -1678,7 +1678,7 @@ form button.btn:hover {
 --------------------------------------------------------------*/
 .why-choose-us {
   padding: 40px 20px !important;
-  background-color: #F8F8FF;
+  background-color: #f3ffe9;
 }
 
 .why-choose-us h4 {
@@ -1744,12 +1744,12 @@ form button.btn:hover {
   font-size: 18px;
   line-height: 125%;
   padding: 14px 32px;
-  background-color: #89b35f;
+  background-color: #020A0C;
 
   /* background-image: linear-gradient(to right, #2c2967, #eba126); */
   font-weight: 600;
   border-radius: 8px;
-  border: 1px solid #0ca659;
+  /* border: 1px solid #0ca659; */
 }
 
 .why-choose-us .btn i {
@@ -1916,12 +1916,12 @@ form button.btn:hover {
 
 
 .services .service-item:hover {
-  background-image: linear-gradient(to right, #89b35f, #89b35f);
+  background-image: linear-gradient(to right, #306100, #306100);
 }
 
 .services .service-item:hover a.btn {
   background-color: #ffffff;
-  color:#89b35f;
+  color:#306100;
 }
 
 .services .service-item:hover .service-content h3,
@@ -1934,7 +1934,7 @@ form button.btn:hover {
 }
 
 .services .service-item:hover .service-content .icon svg path  {
-  fill: #89b35f !important;
+  fill: #306100 !important;
 }
 
 
@@ -1950,11 +1950,11 @@ form button.btn:hover {
 }
 
 .services .service-item .service-content .icon {
-  background-color: #89b35f;
+  background-color: #306100;
 }
 
 .services .service-item .service-content .icon svg {
-  color: #89b35f !important;
+  color: #306100 !important;
 }
 
 
@@ -2055,7 +2055,7 @@ form button.btn:hover {
 }
 
 .services .btn {
-  background-color: #89b35f;
+  background-color: #306100;
   color: #FFFF;
   font-weight: 700;
 }
@@ -2119,7 +2119,7 @@ form button.btn:hover {
   padding: 16px 40px;
   /* background-color: #16495F; */
   border:  none;
-  background-color: #89b35f;
+  background-color: #020A0C;
   font-weight: 600;
 }
 
@@ -2495,8 +2495,8 @@ form button.btn:hover {
   z-index: 1;
 }
 .contact-section form button.btn {
-  background-color: #89b35f !important;
-  border: 1px solid #89b35f !important;
+  background-color: #020A0C !important;
+  border: 1px solid #020A0C !important;
   padding: 16px;
   border-radius: 8px;
 }
